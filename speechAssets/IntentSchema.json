@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "intent": "HelloWorldIntent",
+      "slots": []
+    },
+    {
+      "intent": "ListPossibleStacksIntent",
+      "slots": []
+    },
+    {
+      "intent": "CreateStackIntent",
+      "slots": [
+        {
+          "name": "stack",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "DeleteStackIntent",
+      "slots": [
+        {
+          "name": "stack",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}
